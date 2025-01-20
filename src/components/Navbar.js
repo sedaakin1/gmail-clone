@@ -15,8 +15,8 @@ export default function Navbar() {
   return (
     <Grid container >
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{backgroundColor:"#F9F9F9"}}>
-      <Toolbar variant="dense">
+      <AppBar elevation={0} position="static" sx={{backgroundColor:"#F9F9F9", minHeight:"2vw"}}>
+      <Toolbar variant="dense" sx={{ display: "flex", justifyContent: "flex", alignItems: "center" }}>
         <Grid item xs={4} sx={{
                 display: "flex",
                 alignItems: "center",
@@ -38,8 +38,8 @@ export default function Navbar() {
               </div>
         </Grid>
 
-        <Grid item xs={3}>
-          <Avatar src={auth.currentUser?.photoURL} />
+        <Grid item xs={3} sx={{display: "flex",justifyContent: "flex-end",alignItems: "center",marginLeft:"auto",padding: "0 10px"}}>
+        <Avatar src={auth.currentUser?.photoURL} />
         </Grid>
           
         </Toolbar>
