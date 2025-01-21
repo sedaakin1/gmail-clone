@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 // import Signin from "./components/Signin";
 
 function App() {
   return (
     <div>
       {/* <Signin/> */}
-      {<Navbar/>}
+      {<Main/>}
     </div>
   );
 }

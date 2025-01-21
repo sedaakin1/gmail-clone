@@ -22,7 +22,7 @@ export default function Navbar() {
                 alignItems: "center",
                 padding:" 0 10px"
               }}>
-        <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 1.5, color:"#3C3C3C"}}>
+        <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: "2vw", color:"#3C3C3C"}}>
             <MenuIcon />
           </IconButton>
           <img style={{width:"2vw", minWidth:"35px"}} src={gmail}/>
@@ -38,8 +38,10 @@ export default function Navbar() {
               </div>
         </Grid>
 
-        <Grid item xs={3} sx={{display: "flex",justifyContent: "flex-end",alignItems: "center",marginLeft:"auto",padding: "0 10px"}}>
-        <Avatar src={auth.currentUser?.photoURL} />
+        <Grid item xs={3} 
+          sx={{display: "flex",justifyContent: "flex-end",alignItems: "center",marginLeft:"auto",padding: "0 10px"}}>
+        <Avatar src={auth.currentUser?.photoURL} 
+          sx={{width: { xs: 24, sm: 32, md: 40 }, height: { xs: 24, sm: 32, md: 40 }}}/>
         </Grid>
           
         </Toolbar>
