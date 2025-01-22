@@ -7,7 +7,7 @@ import Leftpanel from './Leftpanel'
 const Main = () => {
   return (
     <div>
-        <Grid container>
+        <Grid container direction="column">
         <Grid item xs={10}>
           <Navbar />
         </Grid>

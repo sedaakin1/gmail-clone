@@ -20,9 +20,9 @@ export default function Navbar() {
         <Grid item xs={4} sx={{
                 display: "flex",
                 alignItems: "center",
-                padding:" 0 10px"
+                padding:" 0 5px"
               }}>
-        <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: "2vw", color:"#3C3C3C"}}>
+        <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: "1vw", color:"#3C3C3C"}}>
             <MenuIcon />
           </IconButton>
           <img style={{width:"2vw", minWidth:"35px"}} src={gmail}/>
