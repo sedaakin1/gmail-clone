@@ -8,7 +8,7 @@ import { fontWeight } from '@mui/system';
 
 const Leftpanel = () => {
   return (
-    <div style={{backgroundColor:"#F9F9F9", width:"170px",minHeight:"100vh", color:"#3C3C3C"}}>
+    <div style={{backgroundColor:"#F9F9F9", width:"200px",minHeight:"100vh", color:"#3C3C3C"}}>
       <div style={{
         display:"flex", 
         alignItems:"center", 
@@ -16,7 +16,7 @@ const Leftpanel = () => {
         backgroundColor:"#c2e7ff",
         margin:"0 10px"
         }}>
-        <CreateOutlinedIcon style={{width:"1.2vw",marginLeft:"20px"}}/> 
+        <CreateOutlinedIcon style={{width:"30px",marginLeft:"20px"}}/> 
         <h4 style={{fontWeight:"500"}}>Compose</h4>
       </div>
 
@@ -24,70 +24,77 @@ const Leftpanel = () => {
         display:"flex", 
         alignItems:"center", 
         borderRadius:"40px",        
-        width:"250px"     
+        width:"200px",
+        padding:"5px 0"     
         }}>
-      <RiInboxFill style={{width:"1.2vw", marginLeft:"2vw"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"500"}}>Inbox</span>
+      <RiInboxFill style={{width:"40px", marginLeft:"20px"}}/>
+      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Inbox</span>
       </div>
 
       <div style={{
         display:"flex", 
         alignItems:"center", 
         borderRadius:"40px",        
-        width:"250px"
+        width:"200px",
+        padding:"5px 0" 
         }}>
-      <FaRegStar style={{width:"1.2vw", marginLeft:"2vw"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"500"}}>Starred</span>
+      <FaRegStar style={{width:"40px", marginLeft:"20px"}}/>
+      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Starred</span>
       </div>
 
       <div style={{
         display:"flex", 
         alignItems:"center", 
         borderRadius:"40px",        
-        width:"250px",
+        width:"200px",
+        padding:"5px 0" 
         }}>
-      <FaRegClock style={{width:"1.2vw", marginLeft:"2vw"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"500"}}>Snoozed</span>
+      <FaRegClock style={{width:"40px", marginLeft:"20px"}}/>
+      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Snoozed</span>
       </div>
 
       <div style={{
         display:"flex", 
         alignItems:"center", 
         borderRadius:"40px",        
-        width:"250px",    
+        width:"200px",   
+        padding:"5px 0"  
         }}>
-      <MdLabelImportantOutline style={{width:"1.2vw", marginLeft:"2vw"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"500"}}>Important</span>
+      <MdLabelImportantOutline style={{width:"40px", marginLeft:"20px"}}/>
+      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Important</span>
       </div>
 
       <div style={{
         display:"flex", 
         alignItems:"center", 
         borderRadius:"40px",        
-        width:"250px",    
+        width:"200px", 
+        padding:"5px 0"    
         }}>
-      <BiSend style={{width:"1.2vw", marginLeft:"2vw"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"500"}}>Sent</span>
+      <BiSend style={{width:"40px", marginLeft:"20px"}}/>
+      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Sent</span>
       </div>
 
       <div style={{
         display:"flex", 
         alignItems:"center", 
         borderRadius:"40px",        
-        width:"250px",   
+        width:"200px", 
+        padding:"5px 0"   
         }}>
-      <FaRegFile style={{width:"1.2vw", marginLeft:"2vw"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"500"}}>Drafts</span>
+      <FaRegFile style={{width:"40px", marginLeft:"20px"}}/>
+      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Drafts</span>
       </div>
 
       <div style={{
         display:"flex", 
         alignItems:"center", 
         borderRadius:"40px",        
-        width:"250px",   
+        width:"200px",   
+        padding:"5px 0" 
         }}>
-      <MdExpandMore style={{width:"1.2vw", marginLeft:"2vw"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"500"}}>More</span>
+      <MdExpandMore style={{width:"40px", marginLeft:"20px"}}/>
+      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>More</span>
       </div>
       
     </div>
