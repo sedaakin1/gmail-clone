@@ -28,7 +28,7 @@ const Leftpanel = () => {
         padding:"5px 0"     
         }}>
       <RiInboxFill style={{width:"40px", marginLeft:"20px"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Inbox</span>
+      <span style={{marginLeft:"1.6vw", fontWeight:"500", fontSize:"15px"}}>Inbox</span>
       </div>
 
       <div style={{
@@ -39,7 +39,7 @@ const Leftpanel = () => {
         padding:"5px 0" 
         }}>
       <FaRegStar style={{width:"40px", marginLeft:"20px"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Starred</span>
+      <span style={{marginLeft:"1.6vw", fontWeight:"500", fontSize:"15px"}}>Starred</span>
       </div>
 
       <div style={{
@@ -50,7 +50,7 @@ const Leftpanel = () => {
         padding:"5px 0" 
         }}>
       <FaRegClock style={{width:"40px", marginLeft:"20px"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Snoozed</span>
+      <span style={{marginLeft:"1.6vw", fontWeight:"500", fontSize:"15px"}}>Snoozed</span>
       </div>
 
       <div style={{
@@ -61,7 +61,7 @@ const Leftpanel = () => {
         padding:"5px 0"  
         }}>
       <MdLabelImportantOutline style={{width:"40px", marginLeft:"20px"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Important</span>
+      <span style={{marginLeft:"1.6vw", fontWeight:"500", fontSize:"15px"}}>Important</span>
       </div>
 
       <div style={{
@@ -72,7 +72,7 @@ const Leftpanel = () => {
         padding:"5px 0"    
         }}>
       <BiSend style={{width:"40px", marginLeft:"20px"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Sent</span>
+      <span style={{marginLeft:"1.6vw", fontWeight:"500", fontSize:"15px"}}>Sent</span>
       </div>
 
       <div style={{
@@ -83,7 +83,7 @@ const Leftpanel = () => {
         padding:"5px 0"   
         }}>
       <FaRegFile style={{width:"40px", marginLeft:"20px"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>Drafts</span>
+      <span style={{marginLeft:"1.6vw", fontWeight:"500", fontSize:"15px"}}>Drafts</span>
       </div>
 
       <div style={{
@@ -94,7 +94,7 @@ const Leftpanel = () => {
         padding:"5px 0" 
         }}>
       <MdExpandMore style={{width:"40px", marginLeft:"20px"}}/>
-      <span style={{marginLeft:"1.6vw", fontWeight:"400"}}>More</span>
+      <span style={{marginLeft:"1.6vw", fontWeight:"500", fontSize:"15px"}}>More</span>
       </div>
       
     </div>
